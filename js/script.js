@@ -280,7 +280,7 @@
 					e.preventDefault();
 
 					$("body, html").stop().animate({
-						scrollTop: $("#" + $(this).attr('data-custom-scroll-to')).offset().top
+						scrollTop: $("#" + $(this).attr('data-custom-scroll-to')).offset().top - $(".rd-navbar").height() - ($window.width() < 992 ? 32 : 0)
 					}, 1000, function () {
 						$window.trigger("resize");
 					});
