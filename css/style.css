@@ -716,7 +716,7 @@ a[href*='mailto'] {
 @media (min-width: 1200px) {
 	.main-decorated-box .decorated-subtitle {
 		font-size: 30px;
-		padding: 34px 10px 10px 38px;
+		padding: 34px 10px 10px 20px;
 	}
 
 	.main-decorated-box .decorated-subtitle:before {
@@ -750,8 +750,8 @@ a[href*='mailto'] {
 		display: block;
 		width: 576px;
 		height: 538px;
-		right: -32%;
-		top: -25%;
+		right: -35%;
+		top: -2%;
 		transform: rotate(33deg);
 	}
 }
@@ -4474,6 +4474,14 @@ html.rd-navbar-fixed-linked .page {
 	border-color: #8145C2;
 	color: #ffffff;
 	margin-left: 20px;
+}
+
+
+@media (max-width: 1200px) {
+	.download-hero-button {
+		display: flex;
+		justify-content: center;
+	}
 }
 
 /** @section Material Parallax */
